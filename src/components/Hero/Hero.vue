@@ -12,8 +12,12 @@
         </p>
 
         <div class="hero-ctas">
-          <RouterLink class="btn btn-primary" to="/auth/signup" role="button">Get Started</RouterLink>
-          <RouterLink class="btn btn-primary btn-secondary" to="/auth/login" role="button">Login</RouterLink>
+          <RouterLink class="btn btn-primary" to="/auth/signup" role="button">
+            Get Started
+          </RouterLink>
+          <RouterLink class="btn btn-primary btn-secondary" to="/auth/login" role="button">
+            Login
+          </RouterLink>
         </div>
       </div>
     </div>
@@ -29,8 +33,8 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
-import waveSrc from '@assets/wave.svg'
-import circle1 from '@assets/circle-1.svg'
-import circle2 from '@assets/circle-2.svg'
 import './hero.css'
+import waveSrc from '../../assets/wave.svg'
+import circle1 from '../../assets/circle-1.svg'
+import circle2 from '../../assets/circle-2.svg'
 </script>
